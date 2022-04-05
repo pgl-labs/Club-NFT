@@ -21,7 +21,7 @@ async function main() {
     // Reserve NFTs
     let txn = await contract.reserveNFTs();
     await txn.wait();
-    console.log("515 NFTs have been reserved");
+    console.log("100 NFTs have been reserved");
 
     // Mint 3 NFTs by sending 0.06 ether
     // txn = await contract.mintNFTs(3, { value: utils.parseEther('0.06') });

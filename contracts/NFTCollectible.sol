@@ -25,9 +25,9 @@ contract PglNftContract is ERC721Enumerable, Ownable {
     function reserveNFTs() public onlyOwner {
         uint totalMinted = _tokenIds.current();
 
-        require(totalMinted.add(515) < MAX_SUPPLY, "Not enough NFTs left to reserve");
+        require(totalMinted.add(100) < MAX_SUPPLY, "Not enough NFTs left to reserve");
 
-        for (uint i = 0; i < 515; i++) {
+        for (uint i = 0; i < 100; i++) {
             _mintSingleNFT();
         }
     }
