@@ -1,6 +1,6 @@
 # Peaky Gorilla Club (NFT)
 
-
+CONTRACT: 0x79756dc8bf4a174221e24a3d28b63a8580512556
 
 # Basic Sample Hardhat Project
 
